@@ -11,10 +11,9 @@ public class Lists {
 //		l.add(43.4f);
 		l.add("java");
 		System.out.println(l);
-		
-		
+		l.get(0);
+		System.out.println(l);		
 	}
-
 }
 
 

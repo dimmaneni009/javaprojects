@@ -10,9 +10,22 @@ public class arraylists {
 		
 		list.add("Hello");   // capacity 10, size 1
 	    list.add("hello");   // capacity 10, size 2
-	    list.add("10");       // capacity 10, size 3
-	    list.add("10.6f");    // capacity 10, size 4
-	    System.out.println(list); 
+	    list.add(10);       // capacity 10, size 3
+	    list.add("10.6f"); 
+	   
+	    list.contains(list);
+	    list.get(0);
+	    
+	   list.containsAll(list);
+	  //list.iterator();
+	   list.remove(1);
+	   list.clear();      // remove all the elements from the list
+	   list.set(2, 20);
+	   list.size();
+	  // list.sort();
+	   list.clone();	
+	   
+	    
 	    
 	}
 

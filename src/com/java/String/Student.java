@@ -24,6 +24,8 @@ public static void main(String[] args) {
 	
 	Student[]  std2 = new Student[1000];
 	std2[0] = new Student(100, "Hari", 10);
+	
+	System.out.println("");
 }
 }
 	
