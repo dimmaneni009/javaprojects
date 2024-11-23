@@ -1,8 +1,9 @@
 package com.java.Basics;
 
 public class EmployeeDAOException extends Exception {
-	public EmployeeDAOException() {
-		super();
+	public EmployeeDAOException() {                  //public Exception() {
+        super();
+		                                               //super();
 	}
 
 	public EmployeeDAOException(String msg) {
@@ -10,7 +11,8 @@ public class EmployeeDAOException extends Exception {
 	}
 
 	public EmployeeDAOException(String msg, Throwable cause) {
-		super(msg, cause);
+		super(msg, cause);                                                  //  public Exception(String message, Throwable cause) {
+                                                                          // super(message, cause);
 	}
 }
 

@@ -117,7 +117,7 @@ public class EmployeeDAO {
 
 		try {
 			ResultSet rs = st.executeQuery(getDataQuery);
-			while (rs.next()) {
+			while (rs.next()) {           
 				Employee emp = new Employee();
 				emp.setEmpId(rs.getInt("ID"));
 				emp.setEmpName(rs.getString("NAME"));
